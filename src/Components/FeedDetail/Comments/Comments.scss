@@ -1,0 +1,99 @@
+.comments {
+    width: 730px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 16px;
+
+    &__wrapper {
+        &__title {
+
+            h5 {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 26px;
+                /* identical to box height */
+
+                letter-spacing: -0.25px;
+                cursor: pointer;
+                color: #3A4374;
+
+            }
+        }
+
+        &__list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 26px;
+            .list__item {
+                display: flex;
+                width: 100%;
+                .main {
+                    width: 100%;
+
+                    .navbarr {
+                        display: flex;
+                        justify-content: space-between;
+                        .userInfo {
+                            margin-left: 25px;
+
+                            h5 {
+                                font-family: 'Jost';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: -0.194444px;
+                                color: #3A4374;
+                                margin: 0;
+                            }
+
+                            p {
+                                font-family: 'Jost';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                                color: #647196;
+
+                            }
+                        }
+                    }
+
+                    .reply {
+                        p {
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 13px;
+                            line-height: 19px;
+                            color: #4661E6;
+                            padding: 0;
+                            margin: 0;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .comment {
+                        margin-left: 25px;
+                        margin-top: 15px;
+                        border-bottom: 1px solid #8C92B3;
+                        p {
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 22px;
+
+                            color: #647196;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

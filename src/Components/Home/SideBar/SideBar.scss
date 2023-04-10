@@ -1,0 +1,61 @@
+.sidebar {
+
+    &__board {
+        background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+        border-radius: 10px;
+        width: 255px;
+        padding-left: 24px;
+        padding-top: 62px;
+        padding-bottom: 24px;
+
+        h4 {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 29px;
+            letter-spacing: -0.25px;
+            color: #FFFFFF;
+        }
+
+        h5 {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.75;
+        }
+    }
+
+    &__table {
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin-top: 24px;
+        padding-left: 24px;
+        padding-top: 24px;
+        padding-right: 24px;
+
+        &__list {
+            width: 100%;
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                cursor: pointer;
+                button {
+                    background: #F2F4FF;
+                    border-radius: 10px;
+                    margin: 8px;
+                    padding: 5px 14px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

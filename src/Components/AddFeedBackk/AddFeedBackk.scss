@@ -1,0 +1,176 @@
+.addFeedback {
+    background: #F2F2F2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+
+    &__back {
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+        a {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #647196;
+            text-decoration: none;
+
+            span {
+                padding-right: 15px;
+            }
+        }
+    }
+
+    &__wrapper {
+        width: 540px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0 auto;
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding-left: 42px;
+
+        &__form {
+            &__title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding-top: 15px;
+
+                h4 {
+
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 35px;
+                    letter-spacing: -0.333333px;
+                    color: #3A4374;
+                    margin: 0;
+                    margin-top: 10px;
+                }
+            }
+
+            form {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                width: 85%;
+                margin-top: 40px;
+
+                b {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: -0.194444px;
+                    color: #3A4374;
+                    margin-top: 10px;
+                }
+
+                label {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+
+                    color: #647196;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                input {
+                    background: #F7F8FD;
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;
+                    margin-top: 16px;
+                    padding: 15px;
+                    cursor: pointer;
+
+                }
+
+                select {
+                    background: #F7F8FD;
+                    border-radius: 5px;
+                    border: none;
+                    padding: 15px;
+                    outline: none;
+                    margin-top: 16px;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 22px;
+                    color: #3A4374;
+                    cursor: pointer;
+                }
+
+                textarea {
+                    background: #F7F8FD;
+                    border-radius: 5px;
+                    outline: none;
+                    border: none;
+                    height: 80px;
+                    padding: 15px;
+                    margin-top: 16px;
+                }
+
+                div {
+                    margin-bottom: 40px;
+                    padding-top: 25px;
+                    display: flex;
+                    justify-content: end;
+
+                    .btn1 {
+                        background: #3A4374;
+                        border-radius: 10px;
+                        border: none;
+                        padding: 12px 24px;
+                        margin-right: 16px;
+                        text-decoration: none;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 20px;
+
+                        color: #F2F4FE;
+
+
+                    }
+
+                    .btn2 {
+                        background: #AD1FEA;
+                        border-radius: 10px;
+                        padding: 12px 24px;
+                        border: none;
+
+
+                        a {
+
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 20px;
+
+                            color: #F2F4FE;
+
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

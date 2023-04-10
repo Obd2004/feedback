@@ -1,0 +1,48 @@
+.navbarFeed {
+    padding-top: 92px;
+    background: #F2F2F2;
+    padding-bottom: 36px;
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 730px;
+        margin: 0 auto;
+
+        &__title {
+            a {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+                color: #647196;
+                padding: 0;
+                margin: 0;
+                cursor: pointer;
+                text-decoration: none;
+                span {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        &__btn {
+            button {
+                background: #4661E6;
+                border-radius: 10px;
+                border: none;
+                padding: 12px 24px;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #F2F4FE;
+
+            }
+        }
+    }
+}

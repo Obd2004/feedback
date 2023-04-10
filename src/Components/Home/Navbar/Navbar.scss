@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+    background: #373F68;
+    border-radius: 10px;
+    margin-left: 30px;
+
+    &__left {
+        padding: 24px 24px;
+        display: flex;
+
+        &__logo {
+            display: flex;
+
+            img {
+                margin-right: 10px;
+                object-fit: contain;
+                cursor: pointer;
+            }
+
+            h4 {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 26px;
+                letter-spacing: -0.25px;
+                color: #FFFFFF;
+                margin: 0;
+            }
+        }
+
+        &__select {
+            display: flex;
+            align-items: center;
+
+            h6 {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #F2F4FE;
+                padding: 0;
+                margin: 0;
+                opacity: 0.8;
+
+            }
+
+            select {
+                border: none;
+                background-color: transparent;
+                outline: none;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #F2F4FE;
+                margin-left: 5px;
+
+                option {
+                    background: #373F68;
+                }
+            }
+
+            padding-left: 38px;
+        }
+    }
+
+    &__right {
+        margin-right: 16px;
+
+        button {
+            padding: 12px 24px;
+            background: #AD1FEA;
+            border-radius: 10px;
+            border: none;
+
+            a {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #F2F4FE;
+                text-decoration: none;
+            }
+        }
+    }
+}
