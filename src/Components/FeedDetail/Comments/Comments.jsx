@@ -13,18 +13,17 @@ function Comments() {
           <div className="comments__wrapper__title">
             <h5 >{count != '' ? count : 0} Comments</h5>
           </div>
-
           {
             data?.map((e, i) => (
               <ul key={i} className='comments__wrapper__list'>
                 <li className='list__item'>
-                  <li className='img'>
+                  <section className='img'>
                     {personData?.map((e) => (
                       <img key={e.id} src={personImg} alt="" />
                     ))}
-                  </li>
-                  <li className='main'>
-                    <li className='navbarr'>
+                  </section>
+                  <section className='main'>
+                    <div className='navbarr'>
                       {personData?.map((e) => (
                         <div className='userInfo'  key={e.id}>
                           <h5>{e.name}</h5>
@@ -34,11 +33,11 @@ function Comments() {
                       <div className='reply'>
                         <p>Reply</p>
                       </div>
-                    </li>
-                    <li className='comment'>
+                    </div>
+                    <div className='comment'>
                         <p>{e}</p>
-                    </li>
-                  </li>
+                    </div>
+                  </section>
                 </li>
               </ul>
             ))
